@@ -69,4 +69,4 @@ only and do not show the real people or places named in the stories.
 | assets/images/skyline.jpg | https://www.istockphoto.com/photos/nairobi-skyline | 
 | assets/images/meeting.jpg |(https://www.linkedin.com/pulse/how-standout-group-discussion-chhandos-pramanik)| 
 
-Story facts come from the references listed on the story page and in the research document.
+Sources of the stories are vaguely listed on the story page and expounded in the research document.
