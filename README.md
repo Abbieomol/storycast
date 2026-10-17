@@ -22,25 +22,8 @@ storycast/
 
 ## Run it locally
 
-1. Open the folder in VS Code and use the Live Server extension, or run `python3 -m http.server 8000` in the folder and visit http://localhost:8000.
-2. To change styles, install Sass (`npm install -g sass`) and run `sass --watch sass/main.scss:css/main.css`.
-3. Add your media files before testing (see below).
+Open the folder in VS Code and use the Live Server extension, or run `python3 -m http.server 8000` in the folder and visit http://localhost:8000.
 
-## Files you need to add
-
-In the HTML files, search for **ADD YOUR** to jump to each spot. Each one has a highlighted comment above it.
-
-| Put this file in | Used on | Where in the HTML |
-|---|---|---|
-| `assets/images/hero.jpg` | Home | `<img class="hero__img">` in the hero |
-| `assets/images/runner.jpg` | Home | first card in Featured stories |
-| `assets/images/clinic.jpg` | Home and Story | "The Clinic That Was Not" card (decorative, empty alt) |
-| `assets/images/skyline.jpg` | Home and Story | "The Nairobi Dream" card (decorative, empty alt) |
-| `assets/video/seven-hours-on-mount-kenya.mp4` | Story | `<source>` inside `<video>` |
-| `assets/audio/seven-hours-on-mount-kenya.mp3` | Story | `<audio>` in the sidebar |
-| `assets/images/meeting.jpg` | About | image next to Our mission |
-
-The captions (`assets/captions/*.vtt`) and the transcript are already included. Re-time the captions against your final video.
 
 ## Accessibility checklist
 
