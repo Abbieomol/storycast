@@ -1,6 +1,6 @@
 # StoryCast
 
-A three-page accessible microsite that shares short true stories from Kenya in audio and video. The stories are retold from published Kenyan reporting (sources are listed on the story page). Built with plain HTML, Sass compiled to CSS, and no frameworks or JavaScript.
+This is a three-page accessible microsite that shares short true stories from Kenya in audio and video. The stories are retold from publicly published Kenyan reporting . Built with plain HTML, Sass compiled to CSS, and no frameworks or JavaScript.
 
 ## Project structure
 
@@ -32,14 +32,13 @@ In the HTML files, search for **ADD YOUR** to jump to each spot. Each one has a 
 
 | Put this file in | Used on | Where in the HTML |
 |---|---|---|
-| `assets/images/hero-moorland.jpg` | Home | `<img class="hero__img">` in the hero |
-| `assets/images/runner-trail.jpg` | Home | first card in Featured stories |
+| `assets/images/hero.jpg` | Home | `<img class="hero__img">` in the hero |
+| `assets/images/runner.jpg` | Home | first card in Featured stories |
 | `assets/images/clinic.jpg` | Home and Story | "The Clinic That Was Not" card (decorative, empty alt) |
-| `assets/images/nairobi-skyline.jpg` | Home and Story | "The Nairobi Dream" card (decorative, empty alt) |
+| `assets/images/skyline.jpg` | Home and Story | "The Nairobi Dream" card (decorative, empty alt) |
 | `assets/video/seven-hours-on-mount-kenya.mp4` | Story | `<source>` inside `<video>` |
-| `assets/images/story-poster.jpg` | Story | `poster=` on the `<video>` |
 | `assets/audio/seven-hours-on-mount-kenya.mp3` | Story | `<audio>` in the sidebar |
-| `assets/images/about-workshop.jpg` | About | image next to Our mission |
+| `assets/images/meeting.jpg` | About | image next to Our mission |
 
 The captions (`assets/captions/*.vtt`) and the transcript are already included. Re-time the captions against your final video.
 
@@ -51,7 +50,7 @@ The captions (`assets/captions/*.vtt`) and the transcript are already included. 
 - [x] Video has captions through a track element, a descriptive transcript and an audio-only version
 - [x] No autoplay; native controls so media works with a keyboard
 - [x] Visible focus outline (3 px) on all interactive elements, with a light outline on dark backgrounds
-- [x] Colour contrast of 4.5:1 or higher for all text (calculated in the report)
+- [x] Colour contrast of 4.5:1 or higher for all text 
 - [x] aria-current marks the current page in the navigation; ARIA is used only where needed
 - [x] Responsive down to 320 px with Grid and Flexbox
 - [x] Container query on the media card (stacked under 30 rem, horizontal at 30 rem and wider)
@@ -60,4 +59,14 @@ The captions (`assets/captions/*.vtt`) and the transcript are already included. 
 
 ## Credits
 
-Add the source and licence of every image, video and audio file here. Story facts come from the references listed on the story page and in the research document.
+All photos are free-licence images or my own. They are for illustration
+only and do not show the real people or places named in the stories.
+
+| File | Source link | 
+
+| assets/images/hero.jpg | (https://www.facebook.com/MaiyanNanyuki/posts/with-the-recent-refreshing-rains-mt-kenyas-views-have-been-spectacular-the-crisp/970609575201782/)|
+| assets/images/clinic.jpg |https://askannie.tortoisepath.com/hospital/nairobi-west-childrens-clinic/   | 
+| assets/images/skyline.jpg | https://www.istockphoto.com/photos/nairobi-skyline | 
+| assets/images/meeting.jpg |(https://www.linkedin.com/pulse/how-standout-group-discussion-chhandos-pramanik)| 
+
+Story facts come from the references listed on the story page and in the research document.
