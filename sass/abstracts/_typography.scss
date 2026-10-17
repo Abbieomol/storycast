@@ -1,0 +1,5 @@
+$font-head: 'Fraunces', Georgia, serif;
+$font-body: 'Atkinson Hyperlegible', system-ui, sans-serif;
+@layer tokens {
+  :root { --font-head: #{$font-head}; --font-body: #{$font-body}; --text-sm: 0.9rem; --text-base: 1.125rem; --text-lg: 1.5rem; --text-xl: 2rem; --text-xxl: clamp(2.5rem, 6vw, 4.5rem); }
+}

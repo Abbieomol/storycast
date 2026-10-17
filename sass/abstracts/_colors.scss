@@ -1,0 +1,5 @@
+$ink: #1E1B18; $cream: #FAF6EE; $clay: #9C3A1E; $teal: #0B5563;
+$sun: #F2B134; $muted: #5A524B; $line: #DDD3C3; $footer-text: #BDB4A8;
+@layer tokens {
+  :root { --ink: #{$ink}; --cream: #{$cream}; --clay: #{$clay}; --teal: #{$teal}; --sun: #{$sun}; --muted: #{$muted}; --line: #{$line}; --footer-text: #{$footer-text}; }
+}
