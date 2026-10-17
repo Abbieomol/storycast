@@ -1,0 +1,19 @@
+@layer reset {
+  *, *::before, *::after { box-sizing: border-box; }
+  body, h1, h2, h3, p, ol, ul, dl, dd, figure { margin: 0; }
+  ol, ul { padding: 0; }
+  img, video { max-width: 100%; display: block; }
+}
+@layer base {
+  body { background: var(--cream); color: var(--ink); font-family: var(--font-body); font-size: var(--text-base); line-height: 1.6; }
+  h1, h2, h3 { font-family: var(--font-head); font-weight: 400; line-height: 1.15; }
+  h1 { font-size: var(--text-xxl); }
+  h2 { font-size: var(--text-xl); }
+  h3 { font-size: var(--text-lg); }
+  a { color: var(--clay); }
+  :focus-visible { outline: 3px solid var(--ink); outline-offset: 3px; }
+  .skip-link { position: absolute; left: var(--space-3); top: -4rem; z-index: 10; background: var(--ink); color: var(--cream); padding: var(--space-3) var(--space-4);
+    &:focus { top: var(--space-3); outline-color: var(--sun); }
+  }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; scroll-behavior: auto !important; } }
+}

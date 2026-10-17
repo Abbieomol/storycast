@@ -1,0 +1,22 @@
+@layer layout {
+  .wrap { width: 100%; max-width: 72rem; margin-inline: auto; padding-inline: var(--space-4); }
+  .section { margin-top: var(--space-7); }
+  .site-header { border-bottom: 1px solid var(--ink);
+    &__inner { display: flex; flex-wrap: wrap; gap: var(--space-3); justify-content: space-between; align-items: center; min-height: 5rem; }
+  }
+  .site-footer { background: var(--ink); color: var(--cream); margin-top: var(--space-7); padding: var(--space-6) var(--space-4);
+    &__inner { display: flex; flex-wrap: wrap; gap: var(--space-4); justify-content: space-between; align-items: center; padding-bottom: var(--space-4); border-bottom: 1px solid var(--footer-text); }
+    &__brand { font-family: var(--font-head); font-weight: 700; font-size: var(--text-lg); color: var(--sun); }
+    &__note { font-size: var(--text-sm); color: var(--footer-text); margin-top: var(--space-3); }
+  }
+  .hero { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--space-5); align-items: center; padding-block: var(--space-6);
+    &__img { width: 100%; height: auto; border-radius: 8px; }
+  }
+  .card-grid { display: grid; gap: var(--space-5); margin-top: var(--space-5); grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr)); }
+  .related-grid { display: grid; gap: var(--space-4); margin-top: var(--space-4); grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr)); }
+  .story-layout { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--space-6); margin-top: var(--space-4); }
+  .about-intro { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--space-5); margin-top: var(--space-5); align-items: start; }
+  .features { display: grid; gap: var(--space-5); margin-top: var(--space-5); grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr)); }
+  @media (min-width: 48rem) { .hero, .about-intro { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  @media (min-width: 62rem) { .story-layout { grid-template-columns: minmax(0, 1fr) 20rem; } }
+}
