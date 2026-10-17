@@ -63,7 +63,7 @@ All photos are free-licence images or my own. They are for illustration
 only and do not show the real people or places named in the stories.
 
 | File | Source link | 
-
+|---|---|
 | assets/images/hero.jpg | (https://www.facebook.com/MaiyanNanyuki/posts/with-the-recent-refreshing-rains-mt-kenyas-views-have-been-spectacular-the-crisp/970609575201782/)|
 | assets/images/clinic.jpg |https://askannie.tortoisepath.com/hospital/nairobi-west-childrens-clinic/   | 
 | assets/images/skyline.jpg | https://www.istockphoto.com/photos/nairobi-skyline | 
